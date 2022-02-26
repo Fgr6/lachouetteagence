@@ -726,10 +726,9 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: -5px auto 10px auto;
 }
 
 h2 {
@@ -804,7 +803,7 @@ h4 {
 }
 
 .tc-white {
-    color: #c27956!important;
+    color: #ffffff!important;
     text-align: center;
 }
 
@@ -893,6 +892,9 @@ h4 {
 }
 
 @media (max-width: 991px) {
+    #form_1{
+        margin-left: 30%;
+    }
     .container {
         width: 100%;
     }
@@ -922,6 +924,34 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    #form_1{
+        margin-left: 2.5%;
+        width: 95%;
+    }
+    .form-group{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .btn-form{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .social{
+        display: flex;
+        height: 50px;
+    }
+    .social1{
+        margin-left: 90px;
+    }
+    .social2{
+        margin-left: 30px;
+    }
+    .social3{
+        margin-left: 30px;
+    }
+    .social4{
+        margin-left: 30px;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1061,7 +1091,10 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
+    .social1{
+        margin-left: 60px;
+    }
     .bloc {
         padding-left: 0;
         padding-right: 0;
