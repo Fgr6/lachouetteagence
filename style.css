@@ -924,6 +924,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .portfolio-thumb{
+        margin-left: 20%;
+    }
     #form_1{
         margin-left: 2.5%;
         width: 95%;
@@ -1092,6 +1095,9 @@ h4 {
 }
 
 @media (max-width: 375px) {
+    .portfolio-thumb{
+        margin-left: 0px;
+    }
     .navbar-brand img {
         max-height: 40px;
         width: 200px;
@@ -1110,3 +1116,14 @@ h4 {
         text-align: center;
     }
 }
+@media (min-width: 375px) and (max-width: 413px){
+    .portfolio-thumb{
+        margin-left: 10px;
+    }
+}
+@media (min-width: 414px) and (max-width: 500px){
+    .portfolio-thumb{
+        margin-left: 25px;
+    }
+}
+
